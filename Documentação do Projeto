@@ -1,0 +1,51 @@
+Documentação do Projeto: Gestão de Fazenda
+1. Escopo do Projeto
+O aplicativo Gestão de Fazenda é uma ferramenta desenvolvida para auxiliar produtores rurais na organização e controle de informações de suas propriedades. Ele permite o cadastro e gerenciamento de dados de animais e plantas, facilitando o monitoramento e aumentando a eficiência na gestão de uma fazenda.
+
+Objetivo do Aplicativo
+Facilitar o registro e monitoramento de informações de produção agrícola e pecuária, proporcionando ao produtor uma interface intuitiva para acessar informações e registrar atividades de forma organizada e rápida.
+
+Principais Funcionalidades
+Cadastro de Animais: Permite que o usuário registre dados de animais da fazenda, como identificação, tipo, data de nascimento e outras informações relevantes para o manejo e controle.
+Cadastro de Plantas: Permite o registro de informações de culturas plantadas, incluindo tipo de planta, data de plantio, e outros dados relacionados ao desenvolvimento das culturas.
+Navegação Intuitiva: Oferece diferentes tipos de navegação para facilitar o uso e acesso às informações:
+Navegação por botões: Para acessar a tela de navegação por abas.
+Navigation Drawer: Menu lateral que permite a navegação direta entre as telas de cadastro de animais e plantas.
+Navegação por abas: Para alternar entre as seções de cadastro de animais e plantas dentro da aplicação.
+Público-Alvo
+O público-alvo principal é composto por pequenos e médios produtores rurais e gestores de fazendas que necessitam de uma forma prática e digital para gerenciar dados da produção agrícola e pecuária. O aplicativo é intuitivo, facilitando o acesso a informações e possibilitando que usuários com conhecimento básico em tecnologia consigam utilizá-lo sem dificuldades.
+
+2. Prova de Conceito (POC)
+A POC do aplicativo foi desenvolvida com foco na implementação e exploração de diferentes tipos de navegação. Ela inclui as telas básicas necessárias para demonstrar como cada tipo de navegação pode ser utilizado de forma eficaz.
+
+Telas Desenvolvidas e Navegação
+Tela Principal (MainActivity):
+
+Exibe o botão para abrir a tela com o TabLayout e o ViewPager, permitindo a navegação por abas entre o cadastro de animais e plantas.
+Inclui o Navigation Drawer que permite ao usuário navegar diretamente para as telas de cadastro de animais e plantas.
+Tela de Cadastro de Animais (CadastroAnimal):
+
+Tela acessível pelo menu lateral e pelo TabLayout.
+Permite o registro de dados específicos de cada animal.
+Tela de Cadastro de Plantas (CadastroPlanta):
+
+Tela acessível pelo menu lateral e pelo TabLayout.
+Permite o registro de dados de culturas e plantas.
+3. Estrutura da Navegação
+Navegação por Botões
+Implementada na MainActivity, possibilita abrir a tela de navegação por abas quando o usuário clica no botão correspondente.
+Navigation Drawer
+Menu lateral que facilita a troca entre as telas de cadastro, permitindo uma navegação rápida e direta.
+Navegação por Abas
+Implementada através de um TabLayout e ViewPager dentro de uma tela dedicada, permitindo alternar entre as telas de cadastro de animais e plantas sem sair da tela principal.
+4. Estrutura da POC e Código
+Estrutura de Arquivos
+MainActivity.kt: Classe principal com o botão de navegação por abas e o menu lateral.
+CadastroAnimal.kt e CadastroPlanta.kt: Atividades responsáveis pelas telas de cadastro de animais e plantas.
+activity_main.xml: Layout principal contendo o DrawerLayout, Button, e o NavigationView.
+activity_cadastro_animal.xml e activity_cadastro_planta.xml: Layouts dedicados para as telas de cadastro de animais e plantas.
+drawer_menu.xml: Menu do NavigationView para o menu lateral.
+Documentação do Código
+Comentários no código: Cada classe e função está comentada para facilitar a compreensão da lógica implementada e dos componentes de navegação.
+5. Considerações Finais
+Esta POC demonstra as funcionalidades básicas e a navegação de um aplicativo de gestão de fazenda, com uma estrutura que pode ser expandida para incluir novos recursos, como relatórios e análises de dados. Ela serve como uma base funcional para a continuidade do desenvolvimento, com foco na simplicidade e usabilidade para produtores rurais.
