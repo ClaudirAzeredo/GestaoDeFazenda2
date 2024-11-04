@@ -6,6 +6,7 @@ Objetivo do Aplicativo
 Facilitar o registro e monitoramento de informações de produção agrícola e pecuária, proporcionando ao produtor uma interface intuitiva para acessar informações e registrar atividades de forma organizada e rápida.
 
 Principais Funcionalidades
+Cadastro do fazendeiro: Permite que o usúario realize seu cadastro no sistema, inserindo os dados pessoais como, nota do produtor, nome, data de nascimento entre outros dados. 
 Cadastro de Animais: Permite que o usuário registre dados de animais da fazenda, como identificação, tipo, data de nascimento e outras informações relevantes para o manejo e controle.
 Cadastro de Plantas: Permite o registro de informações de culturas plantadas, incluindo tipo de planta, data de plantio, e outros dados relacionados ao desenvolvimento das culturas.
 Navegação Intuitiva: Oferece diferentes tipos de navegação para facilitar o uso e acesso às informações:
